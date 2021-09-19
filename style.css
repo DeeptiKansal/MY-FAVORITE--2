@@ -1,0 +1,45 @@
+h1{
+text-align:center;
+font-weight:bold;
+Font-size:50px;
+}
+p{
+text-align:center;
+Font-size:30px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    padding-left:650px;
+    border-radius: 70%;
+}
+.about{
+background: cornsilk;
+    padding: 40px;
+    text-align: center;
+}
+.favorite{
+    background:coral;
+    text-align: center;
+}
+.line {
+    height: 6px;
+    background-color: crimson;
+    width: 50px;
+    margin: 8px auto;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+.menu{
+    position: fixed;
+    background-color: beige;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+    html {
+    scroll-behavior: smooth;
+}
